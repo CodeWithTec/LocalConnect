@@ -1,2 +1,2 @@
 # LocalConnect
-LocalConnect company work
+This is a Project of 6th month durations 

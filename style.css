@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+/* definding the primary colors  */
+
+:root{
+	--color-1: #2E6F40;
+	--color-2: #EFBF04;
+	--color-3: #000;
+	--color-4: #fff;
+}
+
+.login-page{
+	margin-top: 120px;
+}
+.login-section{
+	border-left: 3px solid #2E6F40;
+	padding-left: 15px;
+	
+}
+.logo{
+	border-left: 3px solid #2E6F40;
+	padding-left: 15px;
+	
+}
+
+.login-section h2{
+	text-align: center;
+	font-weight: 700;
+}
+.login-section input{
+	border-radius: 25px;
+	border: 2px solid#2E6F40;
+}
+
+.login-section .btn{
+	background-color: #2E6F40;
+	border-radius: 25px;
+	padding: 4px 22px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.login-section .btn:hover{
+	color: #2E6F40;
+	background-color: #fff;
+	border: 2px solid #2E6F40;
+}
+
+.login-section a{
+	font-size: small;
+	font-weight: 700;
+	text-decoration: none;
+	
+}
