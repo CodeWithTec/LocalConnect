@@ -181,16 +181,101 @@ body{
 
 
 /* Dashboard styling */
-.dashboard-section{
-	margin-left: 300px;
-	position: fixed;
-	padding: 20px;
+.dashboard-layout{
+	height: 100vh;
+	width: calc(100% - 500px);
+	margin-left: 290px;
+	margin-top: 0px;
 }
 
-.dashboard-section .dashboard-header h1{
-	font-size: 2rem;
-	font-weight: 600;
+.dashboard-head h1{
 	color: #2E6F40;
-	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.notification{
+	display: flex;
+	justify-content: left;
+	margin-left: 100%;
 	
+}
+.notification i{
+	font-size: 2rem;
+	margin: 20px;
+	color: #2E6F40;
+	cursor: pointer;
+}
+
+.notification i:hover{
+	color: #EFBF04;
+}
+.seachbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.seachbar input{
+	width: 500px;
+	height: 50px;
+	border-radius: 20px;
+	border: 2px solid #2E6F40;
+	padding-left: 20px;
+	font-size: 1rem;
+}
+
+.seachbar input:focus{
+	outline: none;
+	border-color: #EFBF04;
+}
+
+.seachbar button{
+	height: 50px;
+	width: 100px;
+	border-radius: 20px;
+	border: none;
+	background-color: #2E6F40;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.seachbar button:hover{
+	background-color: #EFBF04;
+	color: #2E6F40;
+	transition: .5s ease-in-out;
+}
+
+.quickbtns{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.quickbtns .btn{
+	background-color: #2E6F40;
+	color: #fff;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin: 0 10px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.quickbtns .btn a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+
+.quickbtns .btn:hover{
+	background-color: #EFBF04;
+	color: #2E6F40;
+	transition: .5s ease-in-out;
+	text-decoration: none;
 }
