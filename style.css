@@ -57,3 +57,83 @@ body{
 	text-decoration: none;
 	
 }
+.text{
+	text-align: center;
+	font-weight: 600;
+	margin-top: -12px;
+}
+.text p{
+	margin: 0;
+	padding: 0;
+}
+.login-section h2{
+	color: #2E6F40;
+}
+
+.logo-section .text a{
+	text-decoration: none;
+	color: #2E6F40;
+}
+
+.text a:hover{
+	color: #2E6F40;
+	text-decoration: underline;
+}
+
+.login-section a{
+	color: #2E6F40;
+}
+
+.login-section a:hover{
+	color: #2E6F40;
+	text-decoration: underline;
+}
+
+/* Super admin dashboard  */
+.sidebar{
+	height: 100vh;
+	width: 300px;
+	background-color: #2E6F40;
+	margin-top: 0px;
+	padding-top: 12px;
+}
+
+.sidebar .nav-item .nav-link a{
+	text-decoration: none;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 600;
+}
+
+.sidebar .nav-item .nav-link:hover{
+	background-color: #fff;
+	color: #2E6F40;
+	border-radius: 30px 0px 0px 30px;
+	transition: .5s ease-in-out;
+}
+
+.sidebar .nav-item .nav-link a:hover{
+	color: #2E6F40;
+	font-weight: 700;
+}
+
+.nav-footer .nav{
+	display: flex;
+	justify-content: center;
+	margin-top: 250px;
+}
+
+.nav-footer .nav .nav-link a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+
+.nav-footer .nav .nav-link a:hover{
+	border-bottom: 3px solid white;
+	padding: 8px;
+	color: #fff;
+	border-radius: 30px;
+}
+
+
