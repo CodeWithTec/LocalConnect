@@ -37,18 +37,21 @@ body{
 	border: 2px solid#2E6F40;
 }
 
-.login-section .btn{
+.login-section .btn a{
 	background-color: #2E6F40;
+	font-weight: 600;
 	border-radius: 25px;
-	padding: 4px 22px;
+	padding: 12px 44px;
 	color: #fff;
+	left: 0;
 	cursor: pointer;
 }
 
-.login-section .btn:hover{
+.login-section .btn a:hover{
 	color: #2E6F40;
 	background-color: #fff;
 	border: 2px solid #2E6F40;
+	text-decoration: none;
 }
 
 .login-section a{
@@ -88,6 +91,41 @@ body{
 	color: #2E6F40;
 	text-decoration: underline;
 }
+/* Media query for smaller screens */
+@media screen and (max-width: 768px){
+	.login-page{
+		margin-top: 50px;
+	}
+	.login-section{
+		border-left: none;
+		padding-left: 0px;
+	}
+	.logo{
+		border-left: none;
+		padding-left: 0px;
+	}
+	.login-section h2{
+		font-size: 1.5rem;
+	}
+	.login-section input{
+		width: 100%;
+	}
+	.login-section .btn a{
+		width: 100%;
+	}
+
+	.f-link{
+		margin-top: 400px;
+		text-align: left;
+	}
+	.login-section{
+	border-top: 3px solid #2E6F40;
+	padding-top: 15px;
+}
+}
+
+/* Media query for smaller screens */
+
 
 /* Super admin dashboard  */
 .sidebar{
@@ -135,5 +173,3 @@ body{
 	color: #fff;
 	border-radius: 30px;
 }
-
-
