@@ -6,15 +6,18 @@
 	<title>LocalConnect</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="Bootstrap/style/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+	integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<div class="logo">
-			<img src="assert/img/logo.png" alt="localconnect-logo" width="280" height="120">
-		</div>
+	
 <div class="sidebar">
+	<div class="logo">
+			<img src="assert/img/logo.png" alt="localconnect-logo" class="img-fluid">
+		</div>
     <div class="nav-bar">
 		<ul class="nav-item">
-			<li class="nav-link"><a href="#">Dashboard</a></li>
+			<li class="nav-link active"><a href="#">Dashboard</a></li>
 			<li class="nav-link"><a href="#">Sellers</a></li>
 			<li class="nav-link"><a href="#">Buyers</a></li>
 			<li class="nav-link"><a href="#">Income</a></li>
@@ -33,9 +36,47 @@
 
 <!-- Dashboard section  -->
 
-<div class="Dashboard-layout">
-	
+<section class="Dashboard-layout">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="dashboard-head">
+						<h1>Welcome Back</h1>
+						<h5>Admin: John Doe</h5>
+						<p>With local all your treasaction is made easy</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="notifaction">
+						<i class="fa fa-message"></i>
+						<i class="fa-solid fa-envelope"></i>
+						<i class="fa-solid fa-bell"></i>
+					</div>
+					</div>
+			<!-- Add more dashboard content here -->
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<input type="text" placeholder="Search" > <button> <i class="fa fa-search"></i> </button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<button><a href="#">Business</a></button>
+			</div>
+			<div class="col-lg-4">
+				<button><a href="#">Business</a></button>
+			</div>
+			<div class="col-lg-4">
+				<button><a href="#">Business</a></button>
+			</div>
+			</div>
+		</div>
+	</div>
 </div>
+</section>
 
 	<script src="Bootstrap/js/bootstrap.min.js"></script>
 </body>

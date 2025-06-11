@@ -134,8 +134,13 @@ body{
 	background-color: #2E6F40;
 	margin-top: 0px;
 	padding-top: 12px;
+	position: fixed;
 }
 
+.logo{
+	background-color: #ffffff;
+	margin-bottom: 12px;
+}
 .sidebar .nav-item .nav-link a{
 	text-decoration: none;
 	font-size: 2rem;
@@ -172,4 +177,20 @@ body{
 	padding: 8px;
 	color: #fff;
 	border-radius: 30px;
+}
+
+
+/* Dashboard styling */
+.dashboard-section{
+	margin-left: 300px;
+	position: fixed;
+	padding: 20px;
+}
+
+.dashboard-section .dashboard-header h1{
+	font-size: 2rem;
+	font-weight: 600;
+	color: #2E6F40;
+	margin-bottom: 20px;
+	
 }
