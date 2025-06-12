@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="Bootstrap/style/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
 	integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 	
@@ -15,19 +16,19 @@
 	<div class="logo">
 			<img src="assert/img/logo.png" alt="localconnect-logo" class="img-fluid">
 		</div>
-    <div class="nav-bar">
-		<ul class="nav-item">
-			<li class="nav-link active"><a href="#">Dashboard</a></li>
-			<li class="nav-link"><a href="#">Sellers</a></li>
-			<li class="nav-link"><a href="#">Buyers</a></li>
-			<li class="nav-link"><a href="#">Income</a></li>
-			<li class="nav-link"><a href="#">Goods</a></li>
-			<li class="nav-link"><a href="#">Partner</a></li>
-			<li class="nav-link"><a href="#">Account</a></li>
+    <div class="nav">
+		<ul class="nav-bar">
+			<li class="nav-item"><a href="Super-admin.html" class="nav-link active">Dashboard</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Sellers</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Buyers</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Income</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Goods</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Partner</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Account</a></li>
 		</ul>
 	</div>
 	<footer class="nav-footer">
-			<ul class="nav">
+			<ul class="nav-f">
 				<li class="nav-link"><a href="#">Setting</a></li>
 				<li class="nav-link"><a href="index.html">Logout</a></li>
 			</ul>
@@ -78,17 +79,23 @@
 		</div>
 	</div>
 </div>
-
 <div class="container-fluid">
-	<div class="container">
-		<div class="row">
-		<!-- monthy satiastic graph -->
-			
-		</div>
-	</div>
+	<div class="container monthly-bar-chart my-5">
+    	<!-- <h2 class="text-center mb-4">Monthly Performance</h2> -->
+    	<div class="card shadow p-4">
+      	<canvas id="monthlyBarChart"></canvas>
+  </div>
+  <div class="botton-text text-center mt-4">
+	<h3>LocalConnect Monthly Performance</h3>
+	<p>This chart shows the monthly performance of your business. It helps you to track your progress and make informed decisions.</p>
+  </div>
+  </div>
 </div>
+				
 </section>
 
 	<script src="Bootstrap/js/bootstrap.min.js"></script>
+	<script src="main-js/script.js"></script>
+
 </body>
 </html>
