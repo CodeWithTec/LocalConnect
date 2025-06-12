@@ -2,17 +2,15 @@
 
 
 //active menu item
- document.addEventListener("DOMContentLoaded", function () {
-    const currentPath = window.location.pathname;
 
-    document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
-      if (link.getAttribute('href') === currentPath) {
-        link.classList.add('active');
-      } else {
-        link.classList.remove('active');
-      }
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function () {
+      document.querySelectorAll('.nav-link').forEach(item => item.classList.remove('active'));
+      this.classList.add('active');
     });
   });
+
+
 
 // this is for the monthly bar chart
 
