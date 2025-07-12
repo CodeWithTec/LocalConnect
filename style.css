@@ -468,3 +468,29 @@ body{
 	color: #2E6F40;
 	font-weight: 700;
 }
+
+/* Help Section  */
+
+.help-section{
+	height: 100vh;
+}
+
+.help-section .container h1, h3{
+	color: #2E6F40;
+	font-weight: 700;
+}
+
+/* End of the Help Section */
+
+/* foget Password */
+
+.forget-password{
+	height: 100vh;
+	background-color: #f0f0f0;
+}
+
+.forget-password .forget-header h1{
+	color: #2E6F40;
+	font-weight: 700;
+	text-align: center;	
+}
